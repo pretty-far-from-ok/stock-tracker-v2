@@ -1,9 +1,11 @@
-### Stock-Tracker
-A live stock tracker for live price monitoring and real-time trading info/signal prompting.
+### Stock-Tracker-v2
+A live stock tracker for `live price` + `OHLCV chart` + `live trading signals` monitoring / prompting.
 
 The demo is based on tkinter with requirements as in ./requirements.txt. <br>
 
 Thanks to ref: [briantam/Stock-Tracker](https://github.com/briantam/Stock-Tracker), for simply borrow the main frame of it.
+
+Thanks to ref: [react-stock-chart](https://github.com/rrag/react-stockcharts), for simply borrow the main frame of it.
 
 ### Overview
 <center><img src="./overview.png" width="60%"></center>

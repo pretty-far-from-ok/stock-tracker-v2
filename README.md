@@ -21,3 +21,14 @@ Thanks to ref: [react-stock-chart](https://github.com/rrag/react-stockcharts), f
 
 ##### Main
 - Use `python3 main.py` to Start the tkinter app mainloop.
+
+### Structure
+- `config` include some config files for tkinter portfolio listbox widgets, for live-OHLCV chart parameters etc.
+- `live` include core code of live OHLCV react client, and a python3 data request & send websocket server.
+- `shell` include some scripts which invokes the web server/client in `live`.
+- `main.py` is the main entry of the entire project.
+- `app` include core code of tkinter GUI widgets, and main logic of its GUI programming.
+- `stock` define a STOCK object used in tkinter GUI widget management. 
+- `query` & `query_config` include snippets for live stock prices data requesting api.
+- `signals` & `signalgen` include snipptes for generating 'trading-target' signals using live stock prices data & indicators.
+
